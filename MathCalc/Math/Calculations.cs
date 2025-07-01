@@ -12,5 +12,10 @@ namespace MathCalc.Math
         {
             Console.WriteLine($"The result of {a} + {b} is {a + b}");
         }
+
+        public void Minus(int a, int b)
+        {
+            Console.WriteLine($"The result of {a} - {b} is {a - b}");
+        }
     }
 }
