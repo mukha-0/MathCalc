@@ -34,5 +34,17 @@ namespace MathCalc.Math
                 Console.WriteLine($"The result of {a} / {b} is {a / b}");
             }
         }
+
+        public void CheckEvenNumber(int a)
+        {
+            if (a % 2 == 0)
+            {
+                Console.WriteLine($"{a} is an even number.");
+            }
+            else
+            {
+                Console.WriteLine($"{a} is not an even number.");
+            }
+        }
     }
 }
