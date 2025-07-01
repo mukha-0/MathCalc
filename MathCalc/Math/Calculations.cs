@@ -17,5 +17,10 @@ namespace MathCalc.Math
         {
             Console.WriteLine($"The result of {a} - {b} is {a - b}");
         }
+
+        public void Multiply(int a, int b)
+        {
+            Console.WriteLine($"The result of {a} * {b} is {a * b}");
+        }
     }
 }
