@@ -22,5 +22,17 @@ namespace MathCalc.Math
         {
             Console.WriteLine($"The result of {a} * {b} is {a * b}");
         }
+
+        public void Divide(int a, int b)
+        {
+            if (b == 0)
+            {
+                Console.WriteLine("Error: Division by zero is not allowed.");
+            }
+            else
+            {
+                Console.WriteLine($"The result of {a} / {b} is {a / b}");
+            }
+        }
     }
 }
